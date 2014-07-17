@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <title>千丁前端公共库文档</title>
+    <!--[if lt IE 9]>
+    <script src="/public/json2/json2.js"></script>
+    <script src="/public/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/public/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="page-header">
+            <h1>千丁前端公共库文档<small>基于bootstrap v3.2.0</small></h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2" style="margin-top:{{ (offsetY-99)|max:0 }}px;">
+          <div class="sidebar">
+            <ul class="list-group">
+              <li class="list-group-item" ui-sref-active="active"><a class="text-default" ui-sref="home">全部<span class="text-muted pull-right glyphicon glyphicon-th-list"></span></a></li>
+              <li class="list-group-item" ui-sref-active="active"><a class="text-default" ui-sref="colors">颜色<span class="text-muted pull-right">color</span></a></li>
+              <li class="list-group-item" ui-sref-active="active"><a class="text-default" ui-sref="button">按钮<span class="text-muted pull-right">button</span></a></li>
+              <li class="list-group-item" ui-sref-active="active"><a class="text-default" ui-sref="table">表格<span class="text-muted pull-right">table</span></a></li>
+              <li class="list-group-item" ui-sref-active="active"><a class="text-default" ui-sref="pages">分页<span class="text-muted pull-right">pagination</span></a></li>
+              <li class="list-group-item" ui-sref-active="active"><a class="text-default" ui-sref="badge">徽章<span class="text-muted pull-right">badge</span></a></li>
+              <li class="list-group-item" ui-sref-active="active"><a class="text-default" ui-sref="helper">辅助<span class="text-muted pull-right">helper</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-10" ui-view></div>
+      </div>
+    </div>
+    <!-- bower:js -->
+    <script src="/public/jquery/dist/jquery.js"></script>
+    <script src="/public/angular/angular.js"></script>
+    <script src="/public/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="/public/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <!-- endbower -->
+    <script src="application.js"></script>
+  </body>
+</html>

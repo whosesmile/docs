@@ -1,0 +1,14 @@
+{
+  "name": "angular-scaffold",
+  "version": "0.1.0",
+  "dependencies": {
+    "json2": "*",
+    "html5shiv": "~3.7.2",
+    "jquery": "~1.11.1",
+    "bootstrap": "https://github.com/whosesmile/bootstrap.git#smile",
+    "angular": "~1.2.19",
+    "angular-ui-router": "~0.2.10",
+    "angular-bootstrap": "~0.11.0"
+  },
+  "devDependencies": {}
+}

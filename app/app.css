@@ -1,0 +1,11 @@
+body { font-size: 12px; }
+h1 small { margin-left: 10px; }
+.example { margin-bottom: 40px; }
+.example .page-header { margin-top: 0 }
+.example h2 { margin-top: 0; border-left: 2px solid #1080f8; padding-left: 10px; }
+.no-border { border: none; }
+.no-shadow { box-shadow: none; }
+.list-group-item { padding: 0 }
+.list-group-item a { display: block; text-decoration: none; padding: 8px 15px; }
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus { background: #313844; border-color: #313844; }
+.list-group-item.active a, .list-group-item.active:hover a, .list-group-item.active:focus a { color: #FFF; }

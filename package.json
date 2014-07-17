@@ -1,0 +1,37 @@
+{
+  "name": "angular-scaffold",
+  "version": "0.1.0",
+  "author": {
+    "name": "whosesmile"
+  },
+  "description": "This is a scaffold  of angular application",
+  "licenses": [
+    {
+      "type": "GPLv2",
+      "url": "http://www.example.com/licenses/gpl.html"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whosesmile/scaffold.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "bower": "~1.3.5",
+    "load-grunt-tasks": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-connect": "~0.8.0",
+    "grunt-wiredep": "~1.8.0"
+  },
+  "dependencies": {
+    "grunt-html2js": "~0.2.7"
+  }
+}
